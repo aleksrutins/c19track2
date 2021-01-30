@@ -29,7 +29,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://github.com/munchkinhalfling/c19track2.git"
+                    "url" : "."
                 }
             ]
         }
