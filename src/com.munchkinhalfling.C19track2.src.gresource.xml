@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/munchkinhalfling/C19track2/js">
+    <file>main.js</file>
+    <file>window.js</file>
+    <file>fetch.js</file>
+    <file>labels.js</file>
+	<file>state-info.js</file>
+	<file>info-dialog.js</file>
+  </gresource>
+</gresources>

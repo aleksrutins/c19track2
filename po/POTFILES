@@ -1,0 +1,7 @@
+data/com.munchkinhalfling.C19track2.desktop.in
+data/com.munchkinhalfling.C19track2.appdata.xml.in
+data/com.munchkinhalfling.C19track2.gschema.xml
+src/window.ui
+src/main.js
+src/window.js
+

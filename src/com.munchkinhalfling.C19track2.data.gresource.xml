@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/munchkinhalfling/C19track2">
+    <file>window.ui</file>
+	<file>state-info.ui</file>
+	<file>info-dialog.ui</file>
+    <file>style.css</file>
+  </gresource>
+</gresources>

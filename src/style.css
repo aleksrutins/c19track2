@@ -1,0 +1,19 @@
+headerbar {
+  background-image: none;
+  border: none;
+  background-color: @theme_bg_color;
+  color: @theme_bg_color;
+}
+
+.state-info {
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 6px;
+}
+scrolledwindow, viewport {
+	border: none;
+}
+.padded {
+	padding: 5px;
+}
