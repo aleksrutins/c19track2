@@ -27,7 +27,10 @@ var C19track2Window = GObject.registerClass({
 }, class C19track2Window extends Gtk.ApplicationWindow {
     _init(application) {
         super._init({ application });
-        const usData = JSON.parse(fetch('https://api.covidtracking.com/v1/us/current.json'))[0];
+        this.load();
+    }
+    async load() {
+    	const usData = JSON.parse(fetch('https://api.covidtracking.com/v1/us/current.json'))[0];
 
         this.us_positive.label = number(usData.positive, usData.positiveIncrease, 'Positive');
         this.us_negative.label = number(usData.negative, usData.negativeIncrease, 'Negative');

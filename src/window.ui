@@ -4,7 +4,6 @@
   <requires lib="gtk+" version="3.24"/>
   <template class="C19track2Window" parent="GtkApplicationWindow">
     <property name="can-focus">False</property>
-    <property name="title" translatable="yes"> C19Track</property>
     <property name="default-width">600</property>
     <property name="default-height">300</property>
     <child>
